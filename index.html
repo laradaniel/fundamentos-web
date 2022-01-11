@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-    <ul>
+    <ul id="menu">
             <li>
                 <a href="index.html" target="blank">Home</a>
             </li>
@@ -17,34 +18,61 @@
             </li>
     </ul>
 
-    <h1>Sobre mim</h1>
+    <h1 class="center">Sobre mim</h1>
 
-    <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet ratione vel,
-        ducimus nulla saepe eligendi impedit unde maiores? Odio voluptates ipsam quae,
-        suscipit laudantium officiis esse aut dicta cumque excepturi?
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet ratione vel,
-        ducimus nulla saepe eligendi impedit unde maiores? Odio voluptates ipsam quae,
-        suscipit laudantium officiis esse aut dicta cumque excepturi?
-    </p>
-    <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-        Possimus pariatur vero odit tenetur sint fugit rerum nostrum quasi?
-        Sapiente doloribus officiis suscipit esse porro aperiam totam quo quam reiciendis sint?
-    </p>
+    <div class="container">
 
-    <img src="assets/img/frajola.jpg" alt="Foto do criador desse conteúdo">
+        <div>
+            <img class="br-50 wh-300 p-30" src="assets/img/frajola.jpg" alt="Foto do criador desse conteúdo">
+        </div>
 
-    <h2>Meu video predileto:</h2>
+        <div class="p-30">
+            <p class="justify">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet ratione vel,
+                ducimus nulla saepe eligendi impedit unde maiores? Odio voluptates ipsam quae,
+                suscipit laudantium officiis esse aut dicta cumque excepturi?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet ratione vel,
+                ducimus nulla saepe eligendi impedit unde maiores? Odio voluptates ipsam quae,
+                suscipit laudantium officiis esse aut dicta cumque excepturi?
+            </p>
+            <p class="justify">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus pariatur vero odit tenetur sint fugit rerum nostrum quasi?
+                Sapiente doloribus officiis suscipit esse porro aperiam totam quo quam reiciendis sint?
+            </p>
+        </div>  
+    </div>
 
-    <iframe
-    width="560"
-    height="315"
-    src="https://www.youtube.com/embed/kEr2pQ7C3Yo"
-    title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen
-    ></iframe>
+    <h2 class="center">Meu video predileto:</h2>
+    
+    <div class="center mb-50">
+        <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/kEr2pQ7C3Yo"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        ></iframe>
+    </div>
+   
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://facebook.com/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/facebook.png" alt="Logo do facebook">
+            </a>
+            
+            <a href="https://www.linkedin.com/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do Linkedin">
+            </a>
+            
+            <a href="https://www.instagram.com/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/instagram.png" alt="Logo do Instagram">
+            </a>
+        </div>
+       <p class="center">Todos os direitos reservados: Lara Daniel &copy</p>
+    </footer>
 </body>
 </html>
